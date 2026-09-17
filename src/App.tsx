@@ -1126,8 +1126,11 @@ function Chapter3() {
             <p className="font-body" style={{ fontSize:"11px", lineHeight:1.78, color:GOLD, whiteSpace:"pre-line" }}>{t.body}</p>
             <Divider/>
             <p className="font-body" style={{ fontSize:"8px", color:"#4a3010", margin:0 }}>
-              Source: NHCP Guidelines / <em>First Voyage Around the World</em> by Antonio Pigafetta — National Historical Commission
-              of the Philippines (NHCP) historical markers and public educational materials.
+              Source: Pigafetta, Antonio. <em>Journal of Magellan's Voyage</em>, 1522–1525.{" "}
+              <a href="https://www.loc.gov/item/2021667606/" target="_blank" rel="noreferrer"
+                style={{ color:"#7a5e1a", textDecoration:"underline", textUnderlineOffset:"2px" }}>
+                Library of Congress ↗
+              </a>
             </p>
           </div>
         </div>
