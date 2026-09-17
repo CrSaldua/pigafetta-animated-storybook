@@ -1,0 +1,10 @@
+{
+  "description": "Explore the animated journey of Magellan's arrival in the Philippines, featuring interactive storytelling and rich visuals that bring history to life.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
