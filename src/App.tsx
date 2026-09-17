@@ -1200,9 +1200,12 @@ function Chapter4() {
             <Divider/>
             <p className="font-heading" style={{ fontSize:"8px", letterSpacing:"0.15em", color:"#7a5e1a", margin:"0 0 5px" }}>PRIMARY SOURCE</p>
             <p className="font-body" style={{ fontSize:"9px", color:GOLD, lineHeight:1.65, textAlign:"center" }}>
-              <em>First Voyage Around the World by Magellan</em><br/>
-              António Pigafetta (c. 1524)<br/><br/>
-              Translated by Lord Stanley of Alderley &amp; James Alexander Robertson
+              <a href="https://www.loc.gov/item/2021667606/" target="_blank" rel="noreferrer"
+                style={{ color:GOLD, textDecoration:"underline", textUnderlineOffset:"2px" }}>
+                <em>Journal of Magellan's Voyage</em> ↗
+              </a><br/>
+              Antonio Pigafetta (1522–1525)<br/><br/>
+              Digitized manuscript · Library of Congress
             </p>
             <Divider/>
             <p className="font-heading" style={{ fontSize:"8px", letterSpacing:"0.15em", color:"#7a5e1a", margin:"0 0 5px" }}>OFFICIAL REFERENCE</p>
