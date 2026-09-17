@@ -1211,10 +1211,7 @@ function Chapter4() {
             <p className="font-heading" style={{ fontSize:"8px", letterSpacing:"0.15em", color:"#7a5e1a", margin:"0 0 5px" }}>OFFICIAL REFERENCE</p>
             <p className="font-body" style={{ fontSize:"9px", color:GOLD, lineHeight:1.6, textAlign:"center" }}>
               National Historical Commission of the Philippines (NHCP)<br/>
-              <a href="https://philhistoricsites.nhcp.gov.ph/registry_database/antonio-pigafetta/" target="_blank" rel="noreferrer"
-                style={{ color:GOLD, textDecoration:"underline", textUnderlineOffset:"2px" }}>
-                “Antonio Pigafetta” Historical Marker (2021) ↗
-              </a>
+              “Antonio Pigafetta” Historical Marker (2021)
             </p>
           </div>
 
