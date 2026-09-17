@@ -1208,10 +1208,13 @@ function Chapter4() {
               Digitized manuscript · Library of Congress
             </p>
             <Divider/>
-            <p className="font-heading" style={{ fontSize:"8px", letterSpacing:"0.15em", color:"#7a5e1a", margin:"0 0 5px" }}>OFFICIAL REFERENCE</p>
+            <p className="font-heading" style={{ fontSize:"8px", letterSpacing:"0.15em", color:"#7a5e1a", margin:"0 0 5px" }}>SUPPORTING SOURCE</p>
             <p className="font-body" style={{ fontSize:"9px", color:GOLD, lineHeight:1.6, textAlign:"center" }}>
-              National Historical Commission of the Philippines (NHCP)<br/>
-              “Antonio Pigafetta” Historical Marker (2021)
+              <a href="https://philippinediaryproject.com/about-the-philippine-diary-project/about-the-diaries/about-antonio-pigafetta/" target="_blank" rel="noreferrer"
+                style={{ color:GOLD, textDecoration:"underline", textUnderlineOffset:"2px" }}>
+                About Antonio Pigafetta ↗
+              </a><br/>
+              The Philippine Diary Project
             </p>
           </div>
 
@@ -1276,10 +1279,12 @@ const EPI_ITEMS = [
   { icon:"A", title:"What Did Pigafetta Contribute?", color:GOLD, body:"Pigafetta kept a detailed eyewitness record of the Magellan–Elcano expedition. He documented its route and dates, the places it visited, meetings with local leaders, Filipino words and customs, trade, religious practices, and the events surrounding the Battle of Mactan and Magellan's death.", sourceLinks:[] },
   { icon:"B", title:"What Does It Tell Us About the Philippines?", color:"#5ba9ae", body:"His account shows that Philippine communities in 1521 had organized leadership, diplomacy, regional trade, skilled boat-making, agriculture, goldworking, and distinct languages and customs. It also describes local beliefs, clothing, food, settlements, natural resources, and the political independence of communities such as Cebu and Mactan.", sourceLinks:[] },
   { icon:"C", title:"Why Is It Historically Important?", color:"#d16b5c", body:"Pigafetta's chronicle is one of the most detailed surviving eyewitness sources for the Philippines in 1521. Historians and students use it to reconstruct the expedition's timeline, study early Visayan society, language, and culture, and compare later interpretations of the Battle of Mactan. Because it reflects a sixteenth-century European viewpoint, it must also be read critically alongside other evidence.", sourceLinks:[] },
-  { icon:"D", title:"What Source Supports Your Answer?", color:"#a889cf", body:"The main primary source is Antonio Pigafetta's First Voyage Around the World, also published in English as The First Voyage Round the World. The references below provide access to Pigafetta's chronicle and accounts of the Battle of Mactan.", sourceLinks:[
+  { icon:"D", title:"What Source Supports Your Answer?", color:"#a889cf", body:"The main primary source is Antonio Pigafetta's surviving journal of the Magellan expedition. The references below provide access to the manuscript, Philippine diary entries, historical background, and educational material about Pigafetta's account.", sourceLinks:[
+    { label:"Journal of Magellan's Voyage — Library of Congress", url:"https://www.loc.gov/item/2021667606/" },
     { label:"Philippine Diary Project — Pigafetta's Journal", url:"https://philippinediaryproject.com/1521/04/26/26th-of-april-1521/" },
-    { label:"The Battle of Mactan by Pigafetta — Scribd", url:"https://www.scribd.com/document/397900752/The-Battle-of-Mactan-by-Pigafetta" },
-    { label:"Pigafetta's Chronicle — Library of Congress", url:"https://www.loc.gov/resource/gdcwdl.wdl_03082/?st=gallery" },
+    { label:"About Antonio Pigafetta — Philippine Diary Project", url:"https://philippinediaryproject.com/about-the-philippine-diary-project/about-the-diaries/about-antonio-pigafetta/" },
+    { label:"Pigafetta: Eyewitness to Christianity in PH — Inquirer", url:"https://usa.inquirer.net/63363/pigafetta-eyewitness-to-birth-of-christianity-in-ph" },
+    { label:"Albo and Pigafetta's Accounts — SlideShare", url:"https://www.slideshare.net/slideshow/albo-and-pigafettas-account-of-the-first-voyage-of-the-worldpdf/257896005" },
   ] },
 ];
 
