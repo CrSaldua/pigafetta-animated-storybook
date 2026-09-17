@@ -807,18 +807,10 @@ function Chapter1() {
                   captions={["Magellan's fleet — 5 ships, 270 men, September 1519", "Philippine shores — first sighted March 16, 1521"]}
                 />
                 <Divider/>
-                <Quote text='"It provides the exact chronological starting point of Spanish contact and the introduction of Christianity to the Philippines." — NHCP'/>
-                <Divider/>
                 <p className="font-body" style={{ fontSize:"10px", color:GOLD, lineHeight:1.7 }}>
                   Pigafetta's chronicle is the primary source historians use to reconstruct Magellan's arrival.
                   Select any card below to read his full account.
                 </p>
-                <div style={{ background:"rgba(200,168,75,0.06)", border:"1px solid #4a3010", borderRadius:"4px", padding:"8px", marginTop:"8px" }}>
-                  <p className="font-heading" style={{ fontSize:"8px", color:"#7a5e1a", margin:"0 0 3px" }}>✦ SOURCE</p>
-                  <p className="font-body" style={{ fontSize:"9px", color:GOLD, lineHeight:1.6, margin:0 }}>
-                    <em>First Voyage Around the World by Magellan</em>, by Antonio Pigafetta (trans. Lord Stanley of Alderley / James Alexander Robertson) — primary source used by the National Historical Commission of the Philippines (NHCP).
-                  </p>
-                </div>
               </>
             )}
           </div>
@@ -996,8 +988,7 @@ function Chapter2() {
                 </p>
                 <p className="font-body" style={{ fontSize:"10px", lineHeight:1.7, color:GOLD, margin:0 }}>
                   It is an early detailed record of local resistance to a Spanish-led expedition in the archipelago.
-                  Lapu-Lapu later became a major Filipino symbol of resistance; the “first Filipino hero” label is a modern interpretation. <em>(NHCP — Recognized historical archives
-                  regarding the Quincentennial Commemorations in the Philippines)</em>
+                  Lapu-Lapu later became a major Filipino symbol of resistance; the “first Filipino hero” label is a modern interpretation.
                 </p>
               </div>
             )}
@@ -1113,7 +1104,7 @@ function Chapter3() {
               <p className="font-body" style={{ fontSize:"9px", color:GOLD, lineHeight:1.6, margin:0 }}>
                 It debunks colonial myths that the Spanish brought civilization to a primitive land.
                 Historians heavily rely on these ethnographical notes to reconstruct what Visayan and Mindanaoan
-                societies looked like before European influence altered them forever. <em>(NHCP)</em>
+                societies looked like before European influence altered them forever.
               </p>
             </div>
           </div>
